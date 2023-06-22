@@ -1,14 +1,16 @@
 <template>
   <header class="the-header">
     <h1 class="the-header__title">PIZZA ZAZA</h1>
-    <div class="the-header__link-wrapper">
-      <router-link class="the-header__link" to="/">Главная</router-link>
-      <router-link class="the-header__link" to="/about">О нас</router-link>
-      <router-link class="the-header__link" to="/services">Сервис</router-link>
-      <router-link class="the-header__link" to="/contacts"
-        >Контакты</router-link
+    <nav class="the-header__nav">
+      <router-link
+        v-for="(item, index) in menu"
+        :key="index"
+        class="the-header__link"
+        :to="item.to"
       >
-    </div>
+        {{ item.text }}
+      </router-link>
+    </nav>
   </header>
 </template>
 
@@ -18,7 +20,30 @@ import { defineComponent } from "vue";
 export default defineComponent({
   name: "TheHeader",
 
-  setup() {},
+  setup() {
+    const menu = [
+      {
+        to: "/",
+        text: "Главная",
+      },
+      {
+        to: "/about",
+        text: "О нас",
+      },
+      {
+        to: "/services",
+        text: "Сервис",
+      },
+      {
+        to: "/contacts",
+        text: "Контакты",
+      },
+    ];
+
+    return {
+      menu,
+    };
+  },
 });
 </script>
 
@@ -29,7 +54,7 @@ export default defineComponent({
     color: var(--color-red);
   }
 
-  &__link-wrapper {
+  &__nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
