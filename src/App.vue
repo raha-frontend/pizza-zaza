@@ -43,6 +43,7 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
+  margin-right: auto;
+	margin-left: auto;
 }
 </style>
