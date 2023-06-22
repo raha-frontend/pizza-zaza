@@ -1,17 +1,15 @@
 <template>
-	<h2>CONTACTS</h2>
+  <h2>CONTACTS</h2>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent } from "vue";
 
 export default defineComponent({
-	setup() {
-		
-	},
-})
+  name: "Contacts",
+
+  setup() {},
+});
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
