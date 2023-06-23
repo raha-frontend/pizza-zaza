@@ -49,7 +49,10 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 .the-header {
+  padding-top: 20px;
+
   &__title {
+    margin-bottom: 20px;
     text-align: center;
     color: var(--color-red);
   }
