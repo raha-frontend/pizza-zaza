@@ -1,15 +1,16 @@
 <template>
-  <div class="the-footer">
+  <div class="the-footer container">
     <div class="the-footer__copy">&copy; {{ year }} Pizza-Zaza</div>
     <div class="the-footer__info">
-      <span class="the-footer__author">Разработка сайта - Рахман</span>
-      <a
-        href="https://github.com/raha-frontend"
-        class="the-footer__link"
-        target="_blank"
-      >
-        Ссылка на гитхаб
-      </a>
+      <span>Разработка сайта -
+				<a
+					href="https://github.com/raha-frontend"
+					class="the-footer__link"
+					target="_blank"
+				>
+				Рахман Гаджимурадов
+				</a>
+			</span>
     </div>
   </div>
 </template>
@@ -45,15 +46,11 @@ export default defineComponent({
     align-items: center;
   }
 
-  &__author {
-    display: block;
-    margin-right: 10px;
-  }
-
   &__link {
-    padding: 5px 10px;
+    padding: 5px 0;
     text-decoration: none;
     color: var(--color-red);
+
     &:hover {
       text-decoration: underline;
       transition: all 0.3s linear;

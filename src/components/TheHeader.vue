@@ -1,5 +1,5 @@
 <template>
-  <header class="the-header">
+  <header class="the-header container">
     <h1 class="the-header__title">PIZZA ZAZA</h1>
     <nav class="the-header__nav">
       <router-link
@@ -50,6 +50,7 @@ export default defineComponent({
 <style lang="scss" scoped>
 .the-header {
   padding-top: 20px;
+	margin-bottom: 50px;
 
   &__title {
     margin-bottom: 20px;
