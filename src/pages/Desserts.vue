@@ -1,12 +1,12 @@
 <template>
-  <h2>CONTACTS</h2>
+  <h2 class="container">Десерты</h2>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "Contacts",
+  name: "Desserts",
 
   setup() {},
 });

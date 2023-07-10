@@ -1,9 +1,13 @@
 import { createRouter, createWebHistory } from "vue-router";
 
 import Home from "./pages/Home.vue";
-import About from "./pages/About.vue";
-import Services from "./pages/Services.vue";
-import Contacts from "./pages/Contacts.vue";
+import Snacks from "./pages/Snacks.vue";
+import Beverages from "./pages/Beverages.vue";
+import Sauces from "./pages/Sauces.vue";
+import Desserts from "./pages/Desserts.vue";
+import Hotter from "./pages/Hotter.vue";
+import Combo from "./pages/Combo.vue";
+import Joy from "./pages/Joy.vue";
 
 const routes = [
   {
@@ -11,16 +15,32 @@ const routes = [
     component: Home,
   },
   {
-    path: "/about",
-    component: About,
+    path: "/snacks",
+    component: Snacks,
   },
   {
-    path: "/services",
-    component: Services,
+    path: "/beverages",
+    component: Beverages,
   },
   {
-    path: "/contacts",
-    component: Contacts,
+    path: "/sauces",
+    component: Sauces,
+  },
+	{
+    path: "/desserts",
+    component: Desserts,
+  },
+  {
+    path: "/hotter",
+    component: Hotter,
+  },
+  {
+    path: "/combo",
+    component: Combo,
+  },
+  {
+    path: "/joy",
+    component: Joy,
   },
 ];
 

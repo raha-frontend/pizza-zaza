@@ -63,8 +63,6 @@ import 'swiper/css/navigation';
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
-import AppButtonVue from "../components/UI/AppButton.vue";
-
 export default defineComponent({
   name: "Home",
 
