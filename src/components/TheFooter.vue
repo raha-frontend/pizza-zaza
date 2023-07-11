@@ -2,15 +2,16 @@
   <div class="the-footer container">
     <div class="the-footer__copy">&copy; {{ year }} Pizza-Zaza</div>
     <div class="the-footer__info">
-      <span>Разработка сайта -
-				<a
-					href="https://github.com/raha-frontend"
-					class="the-footer__link"
-					target="_blank"
-				>
-				Рахман Гаджимурадов
-				</a>
-			</span>
+      <span
+        >Разработка сайта -
+        <a
+          href="https://github.com/raha-frontend"
+          class="the-footer__link"
+          target="_blank"
+        >
+          Рахман Гаджимурадов
+        </a>
+      </span>
     </div>
   </div>
 </template>
