@@ -32,8 +32,8 @@ export default defineComponent({
   --color-border: #e5e5e5;
   --color-red: #ed1c21;
   --color-black: #231f1e;
-	--color-body: #f8f8f8;
-	--color-btn: #50a684;
+  --color-body: #f8f8f8;
+  --color-btn: #50a684;
 }
 
 * {
@@ -54,14 +54,14 @@ h6 {
 }
 
 img {
-	max-width: 100%;
-	height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
-	background-color: var(--color-body);
+  background-color: var(--color-body);
 }
 
 main {
@@ -69,8 +69,8 @@ main {
 }
 
 .container {
-	width: 1200px;
-	padding-left: 15px;
+  width: 1200px;
+  padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
