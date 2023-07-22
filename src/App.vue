@@ -12,6 +12,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
+
 import TheHeader from "./components/TheHeader.vue";
 import TheFooter from "./components/TheFooter.vue";
 
@@ -31,6 +32,8 @@ export default defineComponent({
   --color-border: #e5e5e5;
   --color-red: #ed1c21;
   --color-black: #231f1e;
+  --color-body: #f8f8f8;
+  --color-btn: #50a684;
 }
 
 * {
@@ -45,20 +48,27 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
+  background-color: var(--color-body);
 }
 
 main {
   min-height: calc(100vh - 134.5px - 69px);
 }
 
-.app {
+.container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;

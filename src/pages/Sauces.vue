@@ -1,14 +1,15 @@
 <template>
-  <h2>SERVICES</h2>
+  <h2 class="container">Соусы</h2>
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import {defineComponent} from "vue";
 
 export default defineComponent({
-  name: "Services",
+  name: "Sauces",
 
-  setup() {},
+  setup() {
+  },
 });
 </script>
 
