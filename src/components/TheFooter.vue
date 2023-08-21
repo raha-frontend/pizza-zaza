@@ -40,7 +40,9 @@ export default defineComponent({
   justify-content: space-between;
   align-items: center;
   padding: 20px 60px;
+  margin-bottom: 20px;
   background-color: var(--color-border);
+  border-radius: 14px;
 
   &__info {
     display: flex;

@@ -34,6 +34,7 @@ export default defineComponent({
   --color-black: #231f1e;
   --color-body: #f8f8f8;
   --color-btn: #50a684;
+  --color-text-grey: rgba(224, 224, 224, 0.99);
 }
 
 * {
@@ -70,8 +71,6 @@ main {
 
 .container {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
 }
